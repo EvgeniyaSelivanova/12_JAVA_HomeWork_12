@@ -12,7 +12,7 @@ import ru.netology.repository.RepositoryProduct;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ProductManager {
-    private int id;
+
     private RepositoryProduct repository = new RepositoryProduct();
 
     public void add(Product item) {
